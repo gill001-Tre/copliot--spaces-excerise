@@ -79,3 +79,35 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
 
+## Expanded Roles and Personas
+
+### Release Manager
+Responsible for coordinating release planning, quality assurance, and deployment readiness across teams. Ensures all deliverables meet acceptance criteria and deployment protocols. Works closely with QA, Product, and Engineering teams to manage risk during deployment.
+
+### UX Designer
+Focuses on end-user experience and interface design consistency. Collaborates with Product Managers and Developers to ensure that usability and accessibility goals are met. Participates in retrospectives to identify areas of user journey improvement.
+
+### Automation Engineer
+Develops and maintains automated test suites and CI/CD pipelines. Supports Developers and QA teams to ensure repeatable, reliable releases. Owns continuous integration and delivery quality metrics.
+
+### Business Analyst
+Bridges communication between business stakeholders and technical teams. Translates requirements into actionable deliverables. Supports sprint planning by validating user stories and acceptance criteria.
+
+---
+
+### Supporting Documents
+
+#### New Role Onboarding Checklist
+1. Review project goals and timelines  
+2. Review relevant process documentation in `docs/`  
+3. Confirm tool access (issue tracker, repository, communication channels)  
+4. Meet with cross-functional partners to align on role expectations  
+
+#### Role Interaction Map
+| Role | Collaborates With | Purpose |
+|------|--------------------|----------|
+| Release Manager | QA, Dev, Product | Coordinate testing and deployment |
+| UX Designer | Product Manager, Developer | Align on user goals and design |
+| Automation Engineer | Developer, QA | Maintain automated tests |
+| Business Analyst | Product, Engineering | Validate requirements and metrics |
+
